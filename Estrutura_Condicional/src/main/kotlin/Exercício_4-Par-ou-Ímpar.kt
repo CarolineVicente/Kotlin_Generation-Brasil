@@ -20,7 +20,7 @@ fun main(){
     }else{
 
         var elevado = num.pow(2)
-        println("O número digitado é: ÍMPAR, e seu valor ao quadrado é: $elevado")
+        println("O número digitado é: ÍMPAR, e seu valor ao quadrado é: ${elevado}")
 
     }
 
