@@ -7,6 +7,7 @@ class Cliente(
 ) {
 
     private val listaDeCompras = mutableListOf<String>()
+    val listaCompras: List<String> = listaDeCompras
 
     init {
         if (nome.isBlank())
